@@ -13,10 +13,6 @@ Important to Note:
 =========
 • RSAT needs to be installed for script to work 
 
-Download .exe:
-=========
-
-
 Change Log:
 ============
 1.0:
