@@ -14,10 +14,10 @@ foreach($employee in $employees){
             $strIntEmployeeNum = [string][int]$employeeNum
             if( $strIntEmployeeNum.Length -ne 6 -or $employeeNum.Length -ne 6){
                 $failedInstances += $employee
-        }        
+        	}        
 	}
 	catch{
-        $failedInstances += $employee
+        	$failedInstances += $employee
 	} 
 }
 
