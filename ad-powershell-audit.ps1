@@ -21,23 +21,7 @@ $failedInstances = @()
 
 # Define patterns that indicate users to exclude based on their DistinguishedName
 $excludePatterns = @(
-    'OU=Domain Admins,',
-    'OU=Disabled Users',
-    'OU=Vendors,',
-    'OU=Vendor',
-    'OU=Kiosks',
-    'OU=Privileged Accounts',
-    'CN=Managed Service Accounts,',
-    'CN=Administrator',
-    'CN=autobot',
-    'CN=Qualys',
-    'CN=ch-sales',
-    'CN=MarkVision',
-    'CN=test2-om',
-    'CN=test1-om',
-    'CN=MSOL_93b0bfab609e',
-    'CN=MSOL_37474fc9f182',
-    'CN=Security Test'
+#ou of exluded 
     # ... other distinguished name parts to exclude ...
 )
 
